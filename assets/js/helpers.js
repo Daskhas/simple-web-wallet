@@ -60,7 +60,7 @@ function isNumberKey(evt) {
 const networks = [
   {
     name: 'localhost',
-    url: 'http://localhost:8545',
+    url: 'http://127.0.0.1:7545',
     display: 'Local Network',
     default: true,
   },
@@ -78,6 +78,11 @@ const networks = [
     name: 'rinkeby',
     url: 'https://goerli.infura.io/v3/ae22018377b14a61983be979df457b20',
     display: 'Rinkeby',
+  },
+  {
+    name: 'polygon',
+    url: 'https://rpc-mumbai.maticvigil.com/',
+    display: 'Polygon Testnet(Mumbai)',
   },
 ];
 
